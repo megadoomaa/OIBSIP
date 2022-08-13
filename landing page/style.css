@@ -740,7 +740,7 @@ font-size: 18px;
 }
 
 .apporable-grid{
-    border: 12px solid black;
+    /* border: 12px solid black; */
     display: grid;
     grid-template-columns: 3fr 3fr 3fr ;
     padding: 28px;
@@ -835,3 +835,155 @@ border-radius: 22px;
 }
 
 /* css for the seventh section end here  */
+
+
+.review{
+/* border: 2ps solid black; */
+}
+
+.review-heading{
+    /* border: 2px solid darkgoldenrod; */
+    text-align: center;
+    font-size: 42px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    font-family: "Rozha One";
+}
+
+.review-heading span{
+    color: orangered;
+    font-size: 48px;
+}
+
+.person-review-1 ,.person-review-2,.person-review-3{
+    /* border: 2px solid darkred; */
+    padding: 5px;
+    display: flex;
+    margin: 19px;
+    background-color: rgba(23, 247, 255, 0.452);
+    border-radius: 16px;
+}
+
+.person-review-1 img ,.person-review-2 img ,.person-review-3 img {
+    /* border: 2px solid darkmagenta; */
+    border-radius: 70%;
+    margin-top:12px;
+    margin-left: 9px;
+    height: 60px;
+    width: 110px;
+}
+
+.person-review-1 p , .person-review-2 p,.person-review-3 p{
+
+    /* border: 2px solid gold; */
+    padding: 7px;
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1%;
+    height: fit-content;
+}
+
+.reviews{
+    /* border: 2px solid black; */
+}
+
+#review-2{
+    background-color: rgba(128, 255, 0, 0.452);
+}
+
+#review-3{
+    background-color: rgba(255, 196, 0, 0.452);
+}
+
+.reviews h5{
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 67px;
+}
+
+
+section{
+    /* border: 2px solid firebrick; */
+    background-color: rgba(151, 151, 151, 0.247);
+}
+
+.contact-us{
+    /* border: 2px solid greenyellow; */
+    margin: 15px;
+    display: flex;
+}
+
+.form-contact{
+    /* border: 2px solid darkblue; */
+    margin: 5px;
+    width: 14cm;
+    background-color:white;
+    box-shadow: rgb(128, 128, 128);
+    padding: -1px;
+}
+
+.contact-us img{
+    /* border: 2px solid darkviolet; */
+    margin-left: 20%;
+    margin-top: 7px;
+    background-color: orangered;
+    border-radius: 900px 900px 900px 900px  ;
+    /* margin-left: 2%; */
+    box-shadow: 2cm;
+    height: 500px;
+}
+
+.form-contact h3{
+    /* border: 2px solid darkcyan; */
+    /* margin-top: 18px; */
+    /* margin-left:5px; */
+    width: 13cm;
+    height: 2cm;
+    padding-top: 10px;
+    font-size: 43px;
+    background-color: orange;
+
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.form-contact h4{
+    /* border: 2px solid darkblue; */
+    margin-left: 56px;
+    margin-top: 30px;
+    text-align: center;
+    width: 10cm;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+}
+
+#name,#state,#email{
+    width: 300px;
+    margin-top: 23px;
+    background-color: rgba(180, 180, 180, 0.404);
+    /* border: 2px solid red; */
+    margin-left:2.5cm;
+    height: 39px;
+}
+
+#btn-btn-submit{
+
+    /* border: 2px solid red; */
+    margin-top: 1.8cm;
+    margin-left: 3.3cm;
+    font-size: 34px;
+    padding: 0.4rem;
+    font-family: 'Acme', sans-serif;
+    border-radius: 8px;
+    color: white;
+    background-color:orange;
+}
+
+
+/* end of the website  */
+
