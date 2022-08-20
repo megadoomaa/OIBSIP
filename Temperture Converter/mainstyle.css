@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body{
+    /* border: 4px solid darkblue; */
+    height: 100vh;
+    width: 100vw;
+    background-color:#1f4e48;
+   background-color: #876d97;
+   
+}
+
+h1{
+    /* border: 3px solid darkorchid; */
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.container-box{
+    /* border: 3px solid firebrick; */
+    background-color:#ffb955;
+    background-color: #f9ac66;
+    padding: 70px 45px ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    border-radius: 18px;
+
+}
+
+.container-box h3{
+    /* border: 2px solid darkred; */
+    margin-top: -11%;
+    text-align: center;
+    font-size: 31px;
+    font-family: 'Staatliches', cursive;
+letter-spacing: 2px;
+}
+
+form{
+    /* border: 3px solid deepskyblue; */
+    margin-top: 34px;
+    padding: 21px;
+       
+
+}
+
+
+label{
+    /* border: 2px solid darkorange; */
+    font-size: 22px;
+    margin-bottom: 3px;
+    padding: 2px;
+    font-weight: 500;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.input{
+    /* border: 3px solid forestgreen; */
+    border-radius: 5px ;
+    margin-top: 19px;
+    outline:none;
+    padding: 7px;
+    margin-left: 1px;
+    height: 40px;
+    text-transform: capitalize;
+
+}
+
+select{
+    /* border: 3px solid seagreen ; */
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 7px;
+    border-radius: 11px;
+    text-transform: capitalize;
+background-color:rgba(128, 128, 128, 0.082);
+
+}
+
+.option option{
+    /* border: 2px solid springgreen; */
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 3px;
+}
+
+.submit{
+    /* border: 3px solid sienna; */
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 28px;
+    margin-left: 30%;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color:rgba(0, 0, 0, 0.212);
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+
+span{
+    /* border: 3px solid darkviolet; */
+    margin-top: 33px;
+}
+.output{
+    /* border: 2px solid darkslategray; */
+    margin-top: 2px;
+    color: red;
+    padding: 4px;
+    font-size: 19px;
+    font-family: 'Patua One', cursive;
+    color: black;
+}
