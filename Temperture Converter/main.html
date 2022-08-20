@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion </title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+        <!-- container formed  -->
+    <div class="container-box">
+        <h3>Temperture Converter</h3>
+
+<!-- form is created to convert temperture  -->
+
+        <form id="tempCalculator" onsubmit="CalculateTemp(); return false"> 
+            <label> Enter the value:</label>  <br>
+            <input type="number" name="temperture" id="temperture" class="input" placeholder="enter your temperture">
+      
+        <!-- drop down menu is created  -->
+
+            <select name="temp-selector" id="tempselector" class="option">
+      <option value="cal">°Celsius </option>
+      <option value="fah">°Fahrenheit </option>
+            </select>
+            
+      <br>
+
+             <!-- submit button is created  -->
+
+
+            <input type="submit" name="temp" class="submit" value="Submit"> <br />
+            <label> Converted Temperture:</label> <br /> <br> <br>
+      
+            <!-- output will appear here  -->
+
+          <span id="resultContainer" class="output"></span>
+          </form>
+    </div>
+
+    <!-- javascript linked here  -->
+
+
+    <script src="mainscript.js"></script>
+
+</body>
+
+</html>
+        
