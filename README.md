@@ -1,3 +1,0 @@
-# OIBSIP
-
-## oasis infobyte intership
